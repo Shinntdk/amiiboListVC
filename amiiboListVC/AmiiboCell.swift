@@ -19,6 +19,7 @@ class AmiiboCell: UITableViewCell {
         contentView.backgroundColor = .systemBackground
 
 //        imageIV.backgroundColor = .black
+//        nameLabel.backgroundColor = .blue
 
         nameLabel.font = UIFont(name: "Verdana-Bold", size: 16)
         gameSeriesLabel.font = UIFont(name: "Verdana", size: 14)
@@ -43,7 +44,7 @@ class AmiiboCell: UITableViewCell {
                 imageIV.widthAnchor.constraint(equalToConstant: 40),
                 imageIV.heightAnchor.constraint(equalToConstant: 40),
 
-                nameLabel.leadingAnchor.constraint(equalTo: imageIV.trailingAnchor, constant: 5),
+                nameLabel.leadingAnchor.constraint(equalTo: imageIV.trailingAnchor,constant: 5),
                 nameLabel.topAnchor.constraint(equalTo: topAnchor, constant: 5),
 
                 gameSeriesLabel.leadingAnchor.constraint(equalTo: nameLabel.leadingAnchor),
